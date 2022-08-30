@@ -15,7 +15,7 @@ const sections = {
 
     image: {
       src: AboutImage,
-      alt: "About us name",
+      alt: "About us",
     },
     id: "aboutSection",
   },
