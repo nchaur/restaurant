@@ -12,6 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* Navbar */
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  padding: 0px 30px !important;
+}
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +34,52 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* social icons */
+.socialIcons {
+  color: rgb(52, 51, 51);
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+a:first-of-type {
+  padding-left: 0;
+}
+a:last-of-type {
+  padding-right: 0;
+}
+
+/* reused component (about, location) */
+.contentCard,
+p,
+h5,
+h6 {
+  font-family: "Questrial", sans-serif;
+  white-space: pre-line;
+  text-align: left;
+}
+
+.titleCard {
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.menuCard {
+  font-family: "Libre Baskerville", serif;
+  display: inline;
+  border-bottom: 1px solid #5c5c5a;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.reusCont {
+  padding: 9% 10%;
+}
+
+hr {
+  width: 90px;
 }
 
 @keyframes App-logo-spin {

@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardImg, CardText, CardTitle, Container, Row, Col } from "reactstrap";
-import SocialIcons from "../../SocialIcons";
 
 const ImageAndContent = ({ src, alt, content, title, locationTitle, id }) => {
   return (
@@ -16,7 +15,7 @@ const ImageAndContent = ({ src, alt, content, title, locationTitle, id }) => {
               {title}
             </CardTitle>
             <h5>{locationTitle}</h5> <CardText className="contentCard">{content}</CardText>
-            <SocialIcons />
+            {/* <SocialIcons /> */}
           </Card>
         </Col>
       </Row>

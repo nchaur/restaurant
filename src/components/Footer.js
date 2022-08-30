@@ -1,8 +1,7 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import SocialIcons from "./SocialIcons";
-import LogoImg from "../app/assets/images/logo.png";
-import Logo from "./layout/ImageAndContent/logo";
+import LogoImg from "../assets/images/logo.png";
+import Logo from "./reusableComp/logo";
 
 const sections = {
   image: {
@@ -26,7 +25,7 @@ const Footer = () => {
         </Col>
         <Col className="footerCol">
           <h5>FOLLOW US</h5>
-          <SocialIcons />
+          {/* <SocialIcons /> */}
         </Col>
         <Col className="footerLinks">
           <h5>ABOUT US</h5>

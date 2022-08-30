@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import ImageAndContent from "../components/reusableComp";
+import ImageAndContent from "../components/reusableComp/index.js";
 import AboutImage from "../assets/images/aboutUs.png";
 import LocationImage from "../assets/images/restaurantLocation.png";
 import Menu from "../components/Menu";

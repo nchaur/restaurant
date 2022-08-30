@@ -1,8 +1,8 @@
 import React from "react";
-import { Row, Col, Card, CardBody, CardHeader, CardText, CardTitle } from "reactstrap";
-import mainMenuImg from "../app/assets/images/mainMenu.png";
-import { SALTY } from "../app/shared/MENUSALTY";
-import { SWEET } from "../app/shared/MENUSWEETS";
+import { Row, Col, Card, CardBody, CardText } from "reactstrap";
+import mainMenuImg from "../assets/images/mainMenu.png";
+import { SALTY } from "../shared/MENUSALTY";
+import { SWEET } from "../shared/MENUSWEET";
 
 const Menu = () => {
   const menuSweet = SWEET;
