@@ -1,7 +1,7 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { CAROUSEL } from "../app/shared/CAROUSEL";
+import { CAROUSEL } from "../shared/CAROUSEL";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
