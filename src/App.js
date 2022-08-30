@@ -1,8 +1,10 @@
 import HomePage from "./pages/HomePage";
+import "./App.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <HomePage />
     </div>
   );
