@@ -1,5 +1,5 @@
 
-### Demo: https://nchaur.github.io/restaurant/
+#### Demo: https://nchaur.github.io/restaurant/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
