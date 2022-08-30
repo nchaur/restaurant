@@ -30,7 +30,7 @@ const Menu = () => {
       {/* Desktop view */}
       <div className="d-none d-sm-block">
         <Row>
-          <Col>
+          <Col style={{ textAlign: "center" }}>
             <h1 className="menuCard">Menu</h1>
           </Col>
         </Row>
