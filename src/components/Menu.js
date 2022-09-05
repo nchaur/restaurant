@@ -35,10 +35,10 @@ const Menu = () => {
           </Col>
         </Row>
 
-        <Row className="menuRow">
+        <Row className="menuRow" style={{ margin: "auto", maxWidth: "1540px" }}>
           <Col className="menuCol">{saltyList}</Col>
-          <Col xs="6">
-            <img src={mainMenuImg} alt="Hello" style={{ width: "100%" }} />
+          <Col xs="6" style={{ display: "flex", justifyContent: "center" }}>
+            <img src={mainMenuImg} alt="Hello" style={{ maxWidth: "70%" }} />
           </Col>
           <Col className="menuCol">{sweetList}</Col>
         </Row>

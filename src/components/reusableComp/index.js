@@ -15,7 +15,6 @@ const ImageAndContent = ({ src, alt, content, title, locationTitle, id }) => {
               {title}
             </CardTitle>
             <h5>{locationTitle}</h5> <CardText className="contentCard">{content}</CardText>
-            {/* <SocialIcons /> */}
           </Card>
         </Col>
       </Row>
